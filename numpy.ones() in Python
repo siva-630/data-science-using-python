@@ -1,0 +1,22 @@
+import numpy as siva
+b=siva.ones([2],dtype =int)
+print(b)
+print('one row')
+c=siva.ones([3,3],dtype =int)
+print(c)
+print('4,4 matrix')
+f=siva.ones([4,4],dtype =int)
+print(f)
+
+
+
+[1 1]
+one row
+[[1 1 1]
+ [1 1 1]
+ [1 1 1]]
+4,4 matrix
+[[1 1 1 1]
+ [1 1 1 1]
+ [1 1 1 1]
+ [1 1 1 1]]

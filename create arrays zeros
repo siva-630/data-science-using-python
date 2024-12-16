@@ -12,3 +12,26 @@ for i in range(0,10):
  a.append(0)
 print(a)
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Example 1: Creating Arrays of Zeros
+import numpy as np
+b=np.zeros((2,2))
+print(b)
+print('three matrix')
+c=np.zeros((3,3))
+print(c)
+print('foure dimentional')
+d=np.zeros((4,4))
+print(d)
+out:
+[[0. 0.]
+ [0. 0.]]
+three matrix
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+foure dimentional
+[[0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]]

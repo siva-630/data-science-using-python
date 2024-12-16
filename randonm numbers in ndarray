@@ -1,0 +1,29 @@
+from numpy import random
+d=random.randint(100)
+print(d)
+out:
+33
+
+# Generate Random Float
+
+from numpy import random
+c=random.rand()
+print(c)
+out:
+0.6536277123083882
+
+# Generate Random Array
+
+from numpy import random
+k=random.randint(100,size=(4))
+print(k)
+out:
+[67 66 83 66]
+
+# Generate Random Number From Array
+
+from numpy import random
+g=random.choice([2,45,3,2])
+print(g)
+out:
+45

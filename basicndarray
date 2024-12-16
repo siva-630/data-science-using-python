@@ -1,0 +1,5 @@
+import numpy as np
+list =[1,2,3,4]
+sample_array=np.array(list)
+print('normal:' ,list)
+print('python :' ,sample_array)
